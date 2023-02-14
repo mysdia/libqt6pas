@@ -78,5 +78,4 @@ jobs:
         name: libQt6Pas
         path: |
           ${{ env.SOURCE }}/qt_version.txt
-          ${{ env.SOURCE }}/cbindings/libQt6Pas*
-          ${{ env.SOURCE }}/cbindings/package/libqt6pas*
+          ${{ env.SOURCE }}/cbindings/*
